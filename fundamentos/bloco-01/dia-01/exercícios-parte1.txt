@@ -1,0 +1,36 @@
+mellynna@mellynna-Predator-G3-572:~/Trybe$ mkdir unix_tests
+mellynna@mellynna-Predator-G3-572:~/Trybe$ cd unix_tests
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ touch trybe.txt
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ cp trybe.txt trybe_backup.txt 
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ mv trybe.txt renomear.txt
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ mkdir backup 
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ mv trybe_backup.txt backup
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ mkdir backup2
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ mv backup/trybe_backup.txt backup2
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ rmdir backup
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ mv backup2 backup
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ pwd
+/home/mellynna/Trybe/unix_tests
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ ls
+backup  renomear.txt
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ rm -rf backup
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ clear
+
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ pwd
+/home/mellynna/Trybe/unix_tests
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ head -5 skills.txt
+Internet
+Unix
+Bash
+HTML
+CSS
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ tail -4 skills.txt
+CSS
+JavaScript
+React
+SQL
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ ls
+renomear.txt  skills.txt
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ rm *.txt
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ ls
+mellynna@mellynna-Predator-G3-572:~/Trybe/unix_tests$ 
